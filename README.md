@@ -18,7 +18,7 @@ The best way to check the correct path is to open Steam, right click csgo Proper
  ```
  Copy paste the autoexec.cfg file to the path above. If you have logged in to multiple accounts on the same computer, you will have multiple account id's under Steam/userdata. You can check the correct id using [these](https://www.businessinsider.com/how-to-find-steam-id?r=US&IR=T) instructions.
 
- **NOTE! Do NOT place the autoexec.cfg file to 'cfg' located under the csgo installation folder. Also, DO NOT make any changes to the config files there. Those   files are automatically modified when changes are done from the in-game options.** 
+ **NOTE! Do NOT place the autoexec.cfg file to 'cfg' located under the csgo installation folder. Also, DO NOT make any changes to the config files there.** 
 
 
 ## Step 3: Execute autoexec.cfg whenever csgo is launched
@@ -38,6 +38,11 @@ Personally, I also like to specify the in-game resolution, update frequency etc.
 
 ## FAQ
 ### How do I make the autoexec.cfg file based on the configuration I have specified in-game? 
-* asd fasdf asfdsafgasdf
-
-* Few of the bindings do not work. You are likely using the same button for many 
+* The current in-game specified configurations are in the file (note the different file name).
+```
+ Steam/userdata/<SOME_LONG_NUMBER_CORRESPONDING_TO_ACCOUNT_ID>/730/local/cfg/config.cfg
+```
+ You can start building your autoexec.cfg based on that file.
+ 
+### Few of the bindings do not work. 
+* You are likely using the same button for many operations. CTR + F the "KEY" from the autoexec.cfg and see how many times it is specified.
