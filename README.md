@@ -2,7 +2,7 @@
  In short, the idea is to have a single file (autoexec.cfg) containing all possible keybuttons, settings, crosshair etc. 
  This file is then read each time csgo is launched.
  The effect is the same as if the lines in the file 'autoexec.cfg' were manually copy-pasted to the console window.
- Therefore, all changes should be done in the file 'autoexec.cfg' and the file should be located in a place where csgo can find it
+ Therefore, all changes should be done in the file 'autoexec.cfg' and the file should be located in a place where csgo can find it.
 
 
 ## Step 1: Make changes to the autoexec.cfg file
@@ -16,7 +16,7 @@ The best way to check the correct path is to open Steam, right click csgo Proper
  ```
  Steam/userdata/<SOME_LONG_NUMBER_CORRESPONDING_TO_ACCOUNT_ID>/730/local/cfg
  ```
- Copy paste the autoexec.cfg file to the path above.
+ Copy paste the autoexec.cfg file to the path above. If you have logged in to multiple accounts on the same computer, you will have multiple account id's under Steam/userdata. You can check the correct id using [these](https://www.businessinsider.com/how-to-find-steam-id?r=US&IR=T) instructions.
 
  **NOTE! Do NOT place the autoexec.cfg file to 'cfg' located under the csgo installation folder. Also, DO NOT make any changes to the config files there. Those   files are automatically modified when changes are done from the in-game options** 
 
