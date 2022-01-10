@@ -16,13 +16,18 @@ Steam/userdata/<SOME_LONG_NUMBER_CORRESPONDING_TO_ACCOUNT_ID>/730/local/cfg
 ```
 Copy paste the autoexec.cfg file to the path above.
 
-**NOTE! Do NOT place the autoexec.cfg file to 'cfg' located under the csgo installation folder. Also, DO NOT make any changes to the config files there. Those files are automatically modified when changes are done from the in-game options ** 
+**NOTE! Do NOT place the autoexec.cfg file to 'cfg' located under the csgo installation folder. Also, DO NOT make any changes to the config files there. Those files are automatically modified when changes are done from the in-game options** 
 
 
 
-* Execute the autoexec.cfg file during startup of csgo. Open Steam, right-click csgo Properties -> General and type (at least)
+* To execute the autoexec.cfg file during startup of csgo. Open Steam, right-click csgo Properties -> General and type (at least)
 
 ```
 +exec autoexec
 ```
 to LAUNCH OPTIONS.
+
+Personally, I also like to specify the in-game resolution, tickrate, update frequency of the monitor under LAUNCH OPTIONS
+```
+-w 1280 -h 960 -freq 144 -console -novid -tickrate 64 +exec autoexec
+```
