@@ -9,6 +9,6 @@
 
 * Make sure autoexec.cfg is located in a place where csgo can find it. The best way to check the correct path is to open Steam, right click csgo Properties -> Local files -> Browse. This will open the csgo installation path. From there navigate back few times to the Steam installation folder and go to 
 
-** Steam/userdata/<SOME_LONG_NUMBER_CORRESPONDING_TO_ACCOUNT_ID>/730/local/cfg
+**Steam/userdata/<SOME_LONG_NUMBER_CORRESPONDING_TO_ACCOUNT_ID>/730/local/cfg
 
 
