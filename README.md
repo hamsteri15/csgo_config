@@ -34,3 +34,10 @@ Personally, I also like to specify the in-game resolution, update frequency etc.
 ```
 -w 1280 -h 960 -freq 144 -console -novid -tickrate 64 +exec autoexec
 ```
+
+
+## FAQ
+### How do I make the autoexec.cfg file based on the configuration I have specified in-game? 
+* asd fasdf asfdsafgasdf
+
+* Few of the bindings do not work. You are likely using the same button for many 
