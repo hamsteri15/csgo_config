@@ -35,6 +35,15 @@ Personally, I also like to specify the in-game resolution, update frequency etc.
 -w 1280 -h 960 -freq 144 -console -novid -tickrate 64 +exec autoexec
 ```
 
+## Step 4 (Optional): Add the practice configs
+To enable nice set of nade practice configs, move the practice.cfg file to the same path where you moved the
+autoexec.cfg. Whenever you want to practice grenades, create an empty server with no bots and type
+
+```
+exec practice
+```
+
+to the console.
 
 ## FAQ
 ### How do I make the autoexec.cfg file based on the configuration I have specified in-game? 
